@@ -18,7 +18,7 @@ Developer @GA in NYC
 }
 
 /* Clear fix hack */
-.clearfix:after {
+/*.clearfix:after {
      content: ".";
      display: block;
      clear: both;
@@ -45,39 +45,118 @@ Developer @GA in NYC
 /* BASE STYLES
 /*******************************************/
 
-body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
-}
-
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
-/* Center the container */
-#container {
-  width: 100%;
-  margin: auto;
-  height: 500px;
-
-}
 
 header {
-
+      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+      background-size: cover;
+      padding: 0 0 600px 0;
 }
 
 footer {
+}
 
+.container {
+  width: 960px;
+  margin: 0 auto;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+header h1 {
+  font-weight: 800;
+  padding-top: 20px;
+}
+
+header h2 {
+text-align:center;
+font-weight: 600;
+padding: 50px;
+}
+
+header h2,
+header h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 24px
+}
+
+.cta_yellow {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  background: #f9e42e;
+  padding: 10px 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: #033048;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+section h2 {
+  display: block;
+  color: #033048;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 20px
+}
+
+section {
+  background:#f0efef;
+  margin: 100px, auto, 600px 50px;
+}
+
+section p li {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #606161;
+}
+
+#testimonial {
+  background: url(../images/testimonial_bg.jpg) no-repeat;
+  background-size: cover;
+  padding: 100px;
+}
+
+blockquote p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  width: 300px;
+  color: white;
+  margin: 0 auto;
+}
+
+.quote_name{
+  font-weight: 600;
+}
+
+.cta_blue {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  background: #033048;
+  padding: 10px 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+.sign_up {
+  background: #f9e42e;
+  padding: 20px auto;
+}
+
 
 
 
