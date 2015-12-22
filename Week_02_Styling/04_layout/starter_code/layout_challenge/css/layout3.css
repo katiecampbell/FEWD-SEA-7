@@ -1,0 +1,43 @@
+body {
+	width: 800px;
+	margin: 0 auto;
+	}
+
+header,
+footer {
+	height: 100px;
+	clear: both;
+	margin: 10px 0;
+}
+
+article {
+	float: left;
+	height: 350px;
+	width: 395px;
+	margin: 0 0 10px 0;
+}
+
+.article_right {
+	float: right;
+}
+
+.right_sidebar {
+	float: right;
+	display: block;
+	width: 260px;
+	height: 175px;
+}
+
+.left_sidebar {
+	float: left;
+	display: block;
+	width: 260px;
+	height: 175px;
+}
+
+section {
+	float: right;
+	height: 175px;
+	width: 260px;
+	margin: 0 10px;
+}
