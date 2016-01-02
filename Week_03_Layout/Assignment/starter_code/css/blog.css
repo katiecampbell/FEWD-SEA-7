@@ -1,0 +1,214 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+*/ Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+body {
+	font-family: 'Open Sans', serif;
+	width: 960px;
+	background-color: #f0efef;
+}
+
+header {
+	background-color: #033048;
+	width: 1024px;
+	position: relative;
+}
+
+#nav {
+	display: inline;
+	position: absolute;
+	right: 60px;
+}
+
+.nav_item {
+	display: inline-block;
+	font-weight: 300;
+	font-size: 20px;
+	color: #f9e42e;
+	padding-left: 30px;
+}
+
+h1 {
+font-weight: 800;
+font-size: 48px;
+color: white;
+padding: 40px 100px;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 36px;
+	text-align: left;
+	color: #033048;
+	padding-bottom: 20px;
+	line-height: 48px;
+}
+
+h3 {
+	font-weight: 800;
+	font-size: 32px;
+	color: #033048;
+	padding-bottom: 20px;
+}
+
+h5 {
+	font-weight: 300;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+}
+
+article p {
+	font-weight: 300;
+	font-size: 20px;
+	text-align: left;
+	line-height: 30px;
+	color: #606161;
+	padding-bottom: 30px;
+}
+
+article p:first-letter {
+	font-size: 60px;
+	font-weight: 600;
+	color: #606161;
+	float: left;
+	padding-top: 15px;
+	padding-right: 5px;
+}
+
+.main {
+	width: 700px;
+	float:left;
+	padding-left: 100px;
+	padding-top: 60px;
+}
+
+.side {
+	width: 240px;
+	float: right;
+	padding-top: 60px;
+}
+
+article img {
+	display: block;
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+article {
+	height: 700px;
+	border-bottom: 1px solid #121212;
+}
+
+article:nth-of-type(2){
+	padding-top: 40px;
+	height: 775px;
+	margin-bottom: 80px;
+}
+
+article a {
+	font-weight: 600;
+	font-size: 24px;
+	padding-bottom: 30px;
+	float: right;
+	text-decoration: none;
+	color: #033048;
+}
+
+.cta_blue {
+  display: block;
+  font-weight: 800;
+  font-size: 16px;
+  background: #033048;
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+.sign_up {
+  background: #f9e42e;
+  height: 100px;
+  padding: 30px;
+  width: 1024px; 
+}
+
+li,
+sidebar p {
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 28px;
+	color: #033048;
+}
+
+li:nth-of-type(5){
+	padding-bottom: 40px;
+}
+
+#learn {
+	font-weight: 600;
+	font-size: 22px;
+	float: left;
+	padding-left: 20px;
+	padding-bottom: 40px;
+	text-decoration: none;
+	color: #033048;
+}
+
+.ad {
+	float: left;
+	clear: right;
+	padding-top: 30px;
+}
+
+footer {
+	background: #121212;
+	height: 300px;
+	width: 1024px;
+}
+
+.footer_logo {
+	color: #f9e42e;
+	text-align: center;
+}
+.footer_img {
+	display: block;
+	margin: 0 435px;
+}
+
+footer img {
+	padding: 20px;
+}
