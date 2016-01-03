@@ -44,9 +44,9 @@ header {
 }
 
 #nav {
-	display: inline;
 	position: absolute;
-	right: 60px;
+	right: 0;
+	display: inline;
 }
 
 .nav_item {
@@ -58,10 +58,10 @@ header {
 }
 
 h1 {
-font-weight: 800;
-font-size: 48px;
-color: white;
-padding: 40px 100px;
+	font-weight: 800;
+	font-size: 48px;
+	color: white;
+	padding: 40px 0 40px 100px;
 }
 
 h2 {
@@ -200,9 +200,10 @@ footer {
 	width: 1024px;
 }
 
-.footer_logo {
+footer h1:nth-of-type(1) {
 	color: #f9e42e;
 	text-align: center;
+	padding: 60px 0 20px 0;
 }
 .footer_img {
 	display: block;
