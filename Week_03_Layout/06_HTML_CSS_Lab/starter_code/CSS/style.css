@@ -1,0 +1,153 @@
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+header {
+	background: black;
+	height: 175px;
+	border-bottom: 5px solid yellow;
+}
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 48px;
+	font-weight: 700;
+	color: yellow;
+	padding: 40px;
+}
+
+ul {
+	float: right;
+	margin-right: 50px;
+}
+
+li {
+	font-family: 'Merriweather Sans', sans-serif;
+	color: white;
+	display: inline-block;
+	padding-left: 30px;
+	font-size: 20px;
+}
+
+.bold_nav {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 28px;
+}
+
+.tagline {
+	background: #CBC9CE;
+	padding: 36px 0;
+}
+
+h2 {
+	font-family: 'Merriweather', serif;
+	font-weight: 900;
+	font-style: italic;
+	font-size: 40px;
+	text-align: center; 
+}
+
+.cross-out {
+	text-decoration: line-through;
+	color: grey;
+}
+
+.underline {
+	border-bottom: 3px solid yellow;
+}
+
+.photo-block {
+	background: url(../startup_matchmaker/images/coworking.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.sidebar {
+	height: 500px;
+	width: 425px;
+	background: rgba(255, 255, 255, .6);
+	float: right;
+	margin: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4)
+}
+
+p {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+	text-align: left;
+	line-height: 36px;
+	width: 325px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+section {
+	background-color: 255;
+	height: 400px;
+	width: 33%;
+	margin: 25px 0;
+}
+
+.section_1 {
+	float: left;
+}
+
+.section_2 {
+	float: right;
+	border-left: 1px solid grey;
+}
+
+.section_3 {
+	float: right;
+	border-left: 1px solid grey;
+}
+
+.button {
+	width: 300px;
+	text-align: center;
+	margin: 40px;
+	border-bottom: 4px solid grey;
+	border-radius: 7px;
+	background-color: #c7c7c7;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	padding: 20px; 
+}
+
+.sidebar .button {
+	background-color: yellow;
+	border-bottom: 4px solid #cac424;
+}
+
+
+h3 {
+	font-family: 'Merriweather', serif;
+	font-weight: 900;
+	font-size: 36px;
+	margin-top: 40px;
+	padding-left: 40px;
+	padding-bottom: 10px;
+}
+
+.sidebar h3 {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 800;
+}
+
+h5 {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 18px;
+	color: white;
+	text-align: left;
+	background-color: black;
+	padding: 30px;
+}

@@ -17,7 +17,7 @@ Developer @GA in NYC
      box-sizing: border-box; /* IE */
 }
 
-*/ Clear fix hack */
+/* Clear fix hack */
 .clearfix:after {
      content: ".";
      display: block;
@@ -52,7 +52,6 @@ Developer @GA in NYC
 
 
 header {
-      border: 1px solid pink;
       background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
       background-size: cover;
       height: 400px;
@@ -70,22 +69,23 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
-header h1 {
+body {
+  font-family: 'Open Sans', serif;
+}
+
+h1 {
   font-weight: 800;
   padding-top: 20px;
-}
-
-header h2 {
-text-align:center;
-font-weight: 600;
-padding: 50px;
-}
-
-header h2,
-header h1 {
-  font-family: 'Open Sans', sans-serif;
+  font-size: 48px;
   color: white;
-  font-size: 24px
+}
+
+h2 {
+  text-align:center;
+  font-weight: 600;
+  padding: 50px;
+  font-size: 48px;
+  color: white;
 }
 
 .cta_yellow {
@@ -111,9 +111,8 @@ section h2 {
   font-size: 20px
 }
 
-section {
+.benefits {
   background:#f0efef;
-  margin: 100px, auto, 600px 50px;
 }
 
 section p li {
@@ -163,6 +162,7 @@ blockquote p {
 .sign_up {
   background: #f9e42e;
   padding: 20px auto;
+  height: 200px;
 }
 
 
