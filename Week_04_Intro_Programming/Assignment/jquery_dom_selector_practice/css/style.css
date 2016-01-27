@@ -30,6 +30,10 @@ header{
   margin: 0 auto;
 }
 
+.wrapper p {
+  color: blue;
+}
+
 h1, h3 {
   text-align: center;
 }

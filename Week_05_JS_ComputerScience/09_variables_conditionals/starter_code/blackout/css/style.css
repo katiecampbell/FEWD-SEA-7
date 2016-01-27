@@ -1,3 +1,7 @@
-body.dark {
+.dark_background {
   background: black;
+}
+
+.light_background {
+	background: yellow;
 }

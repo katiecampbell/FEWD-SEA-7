@@ -14,7 +14,7 @@
  */
  
 	function question1(){
-		$("replaceMe").css("replaceMe", "replaceMe");
+		$(".wrapper p").addcss(".wrapper p");
 	}
 
 	$("#button1").click(question1);

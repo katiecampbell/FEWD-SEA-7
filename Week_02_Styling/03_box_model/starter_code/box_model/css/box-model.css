@@ -1,17 +1,43 @@
 * {
   box-sizing: border-box;
 }
+<<<<<<< HEAD
 #box {
 	background: red;
 	padding:34px 0 15px 100px;
 	width: 500px;
 	border: 5px;
 }
+=======
+
+body {
+	margin: 0;
+	background: pink;
+}
+
+#box {
+	background: red;
+	padding: 34px 50px 15px 100px;
+	width: 500px;
+	border: 5px inset purple;
+	color: white;
+	font-weight: bold;
+}
+
+>>>>>>> ga-students/master
 #box2 {
 	background: yellow;
 	width: 700px;
 	padding: 150px 75px;
+<<<<<<< HEAD
 	border: 10px outset;
 	margin: 30px;
 }
 
+=======
+	border: 10px outset gold;
+	margin: 30px;
+}
+
+
+>>>>>>> ga-students/master
