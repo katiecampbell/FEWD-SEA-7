@@ -2,6 +2,10 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+.pink_background {
+  background: pink;
+}
+
 header{
   background: rgba(204, 204, 204, 5);
   text-align: center;
@@ -30,7 +34,7 @@ header{
   margin: 0 auto;
 }
 
-.wrapper p {
+.blue_para {
   color: blue;
 }
 
