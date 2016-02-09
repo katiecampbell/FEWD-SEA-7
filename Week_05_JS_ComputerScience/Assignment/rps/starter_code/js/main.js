@@ -17,6 +17,16 @@ function getComputerPlay() {
 // add your doc ready statement right
 // this is where you'll bind evnet (hint: click)
 $(document).ready(function() {
+	var computerChoiceArray = ["rock", "paper", "scissors"];
+		console.log(computerChoiceArray[1]);
+	function getRandomChoice() {
+		console.log(computerChoiceArray.length);
+		var aRandomNumber = Math.random();
+		var roundedNumber = Math.floor(aRandomNumber);
+		console.log(roundedNumber);
+
+	}
+	getRandomChoice();
 	console.log("hello");
 		var userChoice = "rock";
 		var computerChoice = "rock";
