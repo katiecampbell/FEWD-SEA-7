@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+#nav_list {
+	display: none;
+}
+
+.hamburger_menu {
+    content: "";
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 16px;
+    top: 0;
+    height: 16px;
+    border: 1px solid yellow;
+    -webkit-box-shadow: 1px 10px 1px 1px #69737d,1px 16px 1px 1px     #69737d,1px 22px 1px 1px #69737d;
+    box-shadow: 0 10px 0 1px #69737d,0 16px 0 1px #69737d,0 22px 0 1px #69737d;
+}
+
+.section_1,
+.section_2,
+.section_3 {
+	width: 100%;
+	border-left: none;
+	border-bottom: 1px solid grey;
+	float: none;
+}
+}

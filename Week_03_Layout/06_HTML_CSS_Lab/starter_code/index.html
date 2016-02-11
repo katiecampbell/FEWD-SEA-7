@@ -14,13 +14,17 @@
 		<link href='https://fonts.googleapis.com/css?family=Merriweather+Sans:400,400italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/reset.css" type="text/css">
 		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<link rel="stylesheet" href="css/small-device.css" type="text/css">
+		<link rel="stylesheet" href="css/large-device.css" type="text/css">
 	</head>
 
 	<body>
 		<header>
 			<h1>Startup Matchmaker</h1>
-			<nav> 
-				<ul>
+			<nav>
+				<div class="hamburger_menu"></div>
+
+				<ul id="nav_list">
 					<li a href="#" class="bold_nav">FIND DEVELOPERS</li>
 					<li a href="#" class="bold_nav">FIND DESIGNERS</li>
 					<li a href="#">How it Works</li>
@@ -65,6 +69,10 @@
 		<footer>
 			<h5>2013 Startup Matchmaker. Made in NY.</h5>
 		</footer>
+
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+    	<script src="./js/matchmaker.js" type="text/javascript"></script>
+	</body>
 
 
 
