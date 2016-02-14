@@ -1,0 +1,18 @@
+input {
+	border: 0px solid;
+	border-bottom: 1px solid black;
+	width: 500px;
+}
+
+
+form div label {
+	display: inline-block;
+	width: 300px;
+	margin-bottom: 50px;
+}
+
+fieldset label,
+fieldset input{
+	width: auto;
+	display: inline;
+}

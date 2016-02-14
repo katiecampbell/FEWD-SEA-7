@@ -10,6 +10,7 @@
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/form.css">
 
 	</head>
 	<body>
@@ -32,6 +33,51 @@
 				</section>
 			</div>
 		</section>
+
+		<form action="index.html" method="get">
+			<div class="row">
+				<label for="username">Name:</label>
+				<input name="username" type="text" placeholder="Your Name">
+			</div>
+
+			<div class="row">
+				<label for="email">Email:</label>
+				<input type="email" placeholder="hello@gmail.com">
+			</div>
+
+			<div class="row">
+				<label for="tel">Telephone:</label>
+				<input type="tel" placeholder="000-000-000">
+			</div>
+
+			<div class="row">
+				<label for="state">State:</label>
+				<select>
+					<option value="Alabama">Alabama</option>
+					<option value="Arknsas">Arkansas</option>
+				</select>
+			</div>
+
+			<div class="row">
+				<fieldset>
+					<label for="radial_buttons">Which service are you interested in?</label>
+					<input name="radio_choice" type="radio" id="radio1">
+						<label for="radio1">Relaxing</label>
+					<input name="radio_choice" type="radio" id="radio2">
+						<label for="radio2">Email</label>
+					<input name="radio_choice" type="radio" id="radio3">
+						<label for="radio2">Phone</label>
+				</fieldset>
+			</div>
+
+			<div class="row">
+				<input name="terms_checkbox" type="checkbox">
+				<label for="terms_checkbox">I agree to the terms</label>
+			</div>
+
+
+		</form>
+
 
 		<footer>
 			<h4 class="logo">Relaxr</h4>

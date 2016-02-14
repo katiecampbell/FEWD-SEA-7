@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+	header .container ul li {
+		display: none;
+	}
+
+	header .logo {
+		margin: 0 auto;
+		float: none;
+	}
+
+	.container {
+		width: 100%;
+	}
+
+	#benefits p, #benefits ul,
+	blockquote {
+  		width: 100%;
+	}
+}

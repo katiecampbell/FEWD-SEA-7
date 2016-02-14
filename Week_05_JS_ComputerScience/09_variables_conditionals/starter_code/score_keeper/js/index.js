@@ -15,9 +15,13 @@ $(document).ready(function() {
 			var subtract1 = add10 - 1
 			$("#sub1").click(function() {
 				$("#result").html(subtract1);
+
+						function resetCount (){
+							$("#result").html(score);
+						}
+					});
 				});
 			});
 		});
 	});
-});
 

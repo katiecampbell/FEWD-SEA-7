@@ -22,6 +22,13 @@ $(document).ready(function() {
 		if (image_index < allImages.length){
 			image_index++;
 	 		$("#image-to-vote-on").attr("src", allImages[image_index]);
+
+	 	function calculateVotes(){
+	 		var total = 0;
+		for(var i = 0; i < votes_array.length; i++) {
+    	total += votes_array[i];
+		}
+		var avg = total / votes_array.length
 	 	}
 	});
 });
