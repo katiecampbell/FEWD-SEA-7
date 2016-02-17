@@ -18,28 +18,31 @@ function getComputerPlay() {
 // this is where you'll bind evnet (hint: click)
 $(document).ready(function() {
 	var computerChoiceArray = ["rock", "paper", "scissors"];
-		console.log(computerChoiceArray[1]);
+		// console.log(computerChoiceArray[1]);
 	function getRandomChoice() {
-		console.log(computerChoiceArray.length);
+		// console.log(computerChoiceArray.length);
 		var aRandomNumber = Math.random();
 		var roundedNumber = Math.floor(aRandomNumber);
-		console.log(roundedNumber);
+		// console.log(roundedNumber);
 
 	}
 	getRandomChoice();
-	console.log("hello");
+	// console.log("hello");
 		var userChoice = "rock";
 		var computerChoice = "rock";
 
 	$("#rock").click(function() {
-		console.log(userChoice);
+		// console.log(userChoice);
 	});
+
 	$("#paper").click(function() {
-		console.log("paper clicked");
+		// console.log("paper clicked");
 	});
+
 	$("#scissors").click(function() {
-		console.log("scissors clicked");
+		// console.log("scissors clicked");
 	});
+	
 	// computer chooses rock, paper, or scissors upon click
 	var getComputerChoice = function() {
 		console.log(computerChoice);

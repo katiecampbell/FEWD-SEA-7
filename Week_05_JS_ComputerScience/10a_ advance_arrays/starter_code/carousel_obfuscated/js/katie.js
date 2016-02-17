@@ -22,13 +22,17 @@ $(document).ready(function() {
 		if (image_index < allImages.length){
 			image_index++;
 	 		$("#image-to-vote-on").attr("src", allImages[image_index]);
-
-	 	function calculateVotes(){
-	 		var total = 0;
-		for(var i = 0; i < votes_array.length; i++) {
-    	total += votes_array[i];
-		}
-		var avg = total / votes_array.length
 	 	}
+
+	function calculateVotes(){
+	var ave=0;
+	if(votes_array.length!==0){
+		votes_array.forEach(function(element){
+			ave+=parseInt(element);
+		});
+		ave=(Math.round((ave/votes_array.length) * 100) / 100).toFixed(2);
+	}
+	$("#image-to-vote-on+div").text("You have reached the end. Total deliciousness score was: "+ave);
+	}
 	});
 });

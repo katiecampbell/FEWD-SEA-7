@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.">
+
+		<title>Relaxr Register</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/form.css">
+
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h1 class="logo">Relaxr</h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<h2>Register Now!</h2>
+
+		<form action="index.html" method="get">
+			
+			<div class="row">
+				<label for="username">Name:</label>
+				<input name="username" type="text" placeholder="Your Name">
+			</div>
+
+			<div class="row">
+				<label for="email">Email:</label>
+				<input type="email" placeholder="hello@gmail.com">
+			</div>
+
+			<div class="row">
+				<label for="tel">Telephone:</label>
+				<input type="tel" placeholder="000-000-000">
+			</div>
+
+			<div id="state_names" class="row">
+				<label for="state">State:</label>
+				<select>
+					<option value="Alabama">Alabama</option>
+					<option value="Arknsas">Arkansas</option>
+				</select>
+			</div>
+
+			<div>
+				<fieldset id="radio_choices">
+					<label for="radial_buttons">Which service are you interested in?</label>
+					<input name="radio_choice" type="radio" id="radio1">
+						<label for="radio1">Relaxing</label>
+					<input name="radio_choice" type="radio" id="radio2">
+						<label for="radio2">Email</label>
+					<input name="radio_choice" type="radio" id="radio3">
+						<label for="radio2">Phone</label>
+				</fieldset>
+			</div>
+
+			<div id="terms">
+				<input name="terms_checkbox" type="checkbox">
+				<label for="terms_checkbox">I agree to the terms</label>
+			</div>
+		</form>
+
+		<section id="register">
+			<div>
+				<section>
+					<input type="submit" value="Register Now!">
+				</section>
+			</div>
+		</section>
+
+
+		<footer>
+			<h4 class="logo">Relaxr</h4>
+
+			<ul>
+				<li><a href="#"><img src="images/twitter.png" alt="Twitter logo"></a></li>
+				<li><a href="#"><img src="images/facebook.png" alt="Facebook logo"></a></li>
+			</ul>
+
+			<p class="copyright">Copyright 2015. Relaxr.</p>
+		</footer>
+	</body>
+</html>

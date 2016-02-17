@@ -1,0 +1,97 @@
+body {
+	  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+form input {
+	border: 0px solid;
+	border-bottom: 1px solid black;
+	width: 500px;
+	font-size: 24px;
+	font-family: "Open Sans";
+}
+
+form div label {
+	display: inline-block;
+	width: 300px;
+	margin-bottom: 50px;
+}
+
+fieldset label,
+fieldset input{
+	width: auto;
+	display: inline;
+	font-size: 24px;
+}
+
+form {
+	margin: 50px 0 25px 100px;
+}
+
+h2 {
+	font-size: 40px;
+	margin: 50px;
+}
+
+section input {
+	width: 300px;
+	padding: 10px;
+	color: white;
+	background-color: #033048;
+	font-weight: 600;
+	font-size: 30px;
+	text-align: center;
+  	border-radius: 7px;
+}
+
+#register input {
+	margin: 0 0 50px 100px;
+	font-family: "Open Sans";
+}
+
+#terms input {
+	width: 30px;
+}
+
+#state_names select {
+	width: 500px;
+	height: 40px;
+	border-bottom: 2px solid black;
+}
+
+#state_names select option value {
+	font-family: "Open Sans";
+	font-size: 18px
+}
+
+@media only screen and (max-width: 768px) {
+	form {
+		margin-left: 50px; 
+	}
+
+	.row,
+	h2 {
+		margin: 30px;
+	}
+
+	form input,
+	#state_names select {
+		max-width: 100%;
+	}
+
+	#radio_choices input {
+		float: left;
+		vertical-align: baseline;
+	}
+
+	#radio_choices label {
+		display: block;
+	}
+
+	#register {
+		text-align: center;
+		margin-left: 0;
+	}
+
+
+
+
