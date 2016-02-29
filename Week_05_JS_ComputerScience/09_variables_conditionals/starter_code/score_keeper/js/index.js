@@ -1,7 +1,11 @@
+console.log('loaded');
 $(document).ready(function() {
 	var score = 0;
 
-	$('#zero').click(zero);
+	$('#zero').click(function() {
+		score = 0;
+		$("#result").html(score);
+	});
 	$('#add5').click(add5);
 	$('#add10').click(add10);
 	$('#sub1').click(subtract1);

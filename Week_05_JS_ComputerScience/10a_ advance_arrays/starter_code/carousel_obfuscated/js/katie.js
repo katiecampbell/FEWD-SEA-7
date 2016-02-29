@@ -24,15 +24,20 @@ $(document).ready(function() {
 	 		$("#image-to-vote-on").attr("src", allImages[image_index]);
 	 	}
 
-	function calculateVotes(){
-	var ave=0;
-	if(votes_array.length!==0){
-		votes_array.forEach(function(element){
-			ave+=parseInt(element);
-		});
-		ave=(Math.round((ave/votes_array.length) * 100) / 100).toFixed(2);
-	}
-	$("#image-to-vote-on+div").text("You have reached the end. Total deliciousness score was: "+ave);
-	}
+	 	// have all images been voted on? If so, then invoke the calculatevotes
+	 	if(votes_array.length==allImages.length){
+	 		calculateVotes();
+	 	}
+
+		function calculateVotes(){
+			var ave=0;
+			if(votes_array.length!==0){
+				votes_array.forEach(function(element){
+					ave+=parseInt(element);
+				});
+				ave=(Math.round((ave/votes_array.length) * 100) / 100).toFixed(2);
+			}
+			$("#image-to-vote-on+div").text("You have reached the end. Total deliciousness score was: "+ave);
+		}
 	});
 });

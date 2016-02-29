@@ -26,12 +26,13 @@ $(document).ready(function() {
 		// console.log(roundedNumber);
 
 	}
-	getRandomChoice();
-	// console.log("hello");
-		var userChoice = "rock";
-		var computerChoice = "rock";
+	// getRandomChoice();
+	// // console.log("hello");
+	// 	var userChoice = "rock";
+	// 	var computerChoice = "rock";
 
 	$("#rock").click(function() {
+		
 		// console.log(userChoice);
 	});
 
@@ -44,16 +45,16 @@ $(document).ready(function() {
 	});
 	
 	// computer chooses rock, paper, or scissors upon click
-	var getComputerChoice = function() {
-		console.log(computerChoice);
-		return "rock";
-	}
-	getComputerChoice();
-	var compareTwoStrings = function() {
-		if(userChoice === computerChoice); {
-			console.log("Cool!");
-		}
-	}
-	compareTwoStrings();// 
+	// var getComputerChoice = function() {
+	// 	console.log(computerChoice);
+	// 	return "rock";
+	// }
+	// getComputerChoice();
+	// var compareTwoStrings = function() {
+	// 	if(userChoice === computerChoice); {
+	// 		console.log("Cool!");
+	// 	}
+	// }
+	// compareTwoStrings();// 
 });
 
