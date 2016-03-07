@@ -1,3 +1,63 @@
-#deleteButton {
-	display: none;
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-size: 36px;
+	color: #008eff;
+	font-weight: 700;
+	text-align: center;
+	max-width: 500px;
+	margin-left: 30px;
+}
+
+#item_submit {
+	text-align: center;
+	max-width: 500px;
+}
+
+#itemText {
+	width: 325px;
+	height: 30px;
+	font-size: 20px;
+	text-align: center;
+	margin-left: 30px;
+}
+
+#submitButton {
+	height: 35px;
+	width: 100px;
+	color: white;
+	margin-left: 10px;
+	background-color: #008eff;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+#submissions ul {
+	display: block;
+}
+
+#item_list li {
+	list-style-type: none;
+	font-size: 20px;
+	color: #575757;
+	padding: 10px 20px;
+	border-bottom: 1px solid #008eff;
+}
+
+.deleteItem {
+	margin-left: 20px;
+	color: red;
+	text-decoration: none;
+}
+
+.checkmark {
+	margin-right: 20px;
+	color: #a5a5a5;
+	text-decoration: none;
+}
+
+.checkmarkGreen {
+	color: green;
 }

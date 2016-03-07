@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <head>
 	<title>Todo List</title>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="todo_style.css">
 </head>
 <body>
+	<h1>Katie's To-Do List</h1>
 	<form id="item_submit">
 		<div>
 		<input id="itemText" type="text" placeholder="What needs to be done?" />
-		<input type="submit" />
+		<input id="submitButton" type="submit" />
 		</div>
 
-		<div>
+		<div id="submissions">
 			<ul id="item_list">
 			</ul>
-			<button id="deleteButton">X</button>
+			<!-- <button id="deleteButton">X</button> -->
 		</div>
 	</form>
 
